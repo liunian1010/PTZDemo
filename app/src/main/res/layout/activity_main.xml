@@ -2,7 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_margin="50dp"
+        android:text="没有选择方向，请触摸紫色圆盘"
+        android:id="@+id/fangxaing"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <com.liunian.ptzdemo.PTZView2
+        android:id="@+id/ptzView2"
         android:layout_centerInParent="true"
         android:layout_width="300dp"
         android:layout_height="300dp" />
